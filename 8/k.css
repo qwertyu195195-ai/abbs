@@ -1,0 +1,62 @@
+.product-card {
+    width: 220px;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 15px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    direction: rtl;
+    /* لترتيب النصوص العربية من اليمين */
+    font-family: sans-serif;
+}
+
+/* تنسيق وحجم الصورة */
+.product-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* عنوان المنتج */
+.product-title {
+    font-size: 16px;
+    color: #333;
+    margin: 10px 0;
+}
+
+/* حاوية الأسعار */
+.price-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    /* مسافة بين الأسعار */
+    flex-wrap: wrap;
+}
+
+/* السعر الحالي الفعلي */
+.discount-price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #e61212;
+    /* لون أحمر أو أخضر للسعر الجديد */
+}
+
+/* السعر القديم المشطوب */
+.old-price {
+    font-size: 14px;
+    color: #999;
+    text-decoration: line-through;
+    /* وضع خط فوق السعر القديم */
+}
+
+/* بطاقة نسبة الخصم الصغيرة */
+.badge {
+    background-color: #ff0000;
+    color: white;
+    font-size: 12px;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-weight: bold;
+}
